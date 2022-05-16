@@ -1,0 +1,14 @@
+@use "./variables" as *;
+
+.horizontal-break {
+  background-color: $color-primary;
+  height: 0.25rem;
+  width: 6.25rem;
+  margin: 2.875rem 0;
+
+  &--small {
+    margin: 0 0 1rem 0;
+    height: 0.063rem;
+    width: 4.125rem;
+  }
+}
