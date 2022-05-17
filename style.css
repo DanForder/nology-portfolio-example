@@ -53,9 +53,12 @@ body {
   width: 100vw;
 }
 
-header,
+header {
+  padding: 1.25rem 1.25rem 0;
+}
+
 main {
-  padding: 1.25rem;
+  padding: 0 1.25rem;
 }
 
 .card .card__image {
@@ -78,11 +81,11 @@ main {
   gap: 1rem;
 }
 .card .card__info .card__links .card__icon {
-  border-radius: 100%;
-  background-color: #3c3636;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 100%;
+  background-color: #3c3636;
   padding: 0.75rem;
 }
 .card .card__skills {
@@ -156,9 +159,9 @@ main {
 .contact-section {
   margin-top: 117px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 3.875rem;
 }
 

@@ -1,19 +1,17 @@
+@use "./mixins" as *;
+
 .footer {
   margin-top: 5.5rem;
   background-color: #3b3636;
   height: 7.125rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   gap: 1.25rem;
 
   .footer__link {
     background-color: #453f3f;
     border-radius: 100%;
     padding: 0.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
   }
 
   .footer__icon {
