@@ -139,7 +139,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #5c5c5c;
+  border-bottom: 0.063rem solid #5c5c5c;
   padding: 1.5rem 0;
 }
 .expander-section .expander-section__expander .expander-section__secondary-heading {
@@ -150,14 +150,14 @@ main {
 
 .button {
   font-family: "Inter", sans-serif;
-  border: solid 1px #d9bea5;
+  border: solid 0.063rem #d9bea5;
   font-size: 1.125rem;
   background-color: transparent;
   padding: 1.75rem 5.75rem;
 }
 
 .contact-section {
-  margin-top: 117px;
+  margin-top: 7.25rem;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,7 +1,7 @@
 @use "./mixins" as *;
 
 .contact-section {
-  margin-top: 117px;
+  margin-top: 7.25rem;
   @include flex-center;
   flex-direction: column;
   gap: 3.875rem;
