@@ -3,13 +3,13 @@
 
 .footer {
   margin-top: 5.5rem;
-  background-color: $color-surface-variant;
+  background-color: $color-neutral-3;
   height: 7.125rem;
   @include flex-center;
   gap: 1.25rem;
 
   .footer__link {
-    background-color: $color-surface-variant;
+    background-color: $color-neutral-3;
     border-radius: 100%;
     padding: 0.75rem;
     @include flex-center;

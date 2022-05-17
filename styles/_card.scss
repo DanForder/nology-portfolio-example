@@ -24,7 +24,7 @@
       .card__icon {
         @include flex-center;
         border-radius: 100%;
-        background-color: $color-surface;
+        background-color: $color-neutral-2;
         padding: 0.75rem;
       }
     }
@@ -37,7 +37,7 @@
     .card__skill-icon {
       font-family: "Inter", serif;
       font-size: 0.813rem;
-      background-color: $color-surface;
+      background-color: $color-neutral-2;
       padding: 0.2rem 1rem;
     }
   }

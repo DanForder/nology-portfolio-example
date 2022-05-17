@@ -1,10 +1,14 @@
 // colors
-$color-background: #2c2a2a;
 $color-text: #ffffff;
-$color-primary: #d9bea5;
-$color-surface: #3c3636;
-$color-surface-variant: #453f3f;
-$color-background-variant: #5c5c5c;
+$color-highlight: #d9bea5;
+$color-neutral-1: #2c2a2a;
+$color-neutral-2: #3c3636;
+$color-neutral-3: #453f3f;
+$color-neutral-4: #5c5c5c;
 
 // breakpoints
 $large-mobile-breakpoint: 375px;
+$tablet-breakpoint: 768px;
+$desktop-breakpoint: 1024px;
+$large-desktop-breakpoint: 1440px;
+$extra-large-desktop-breakpoint: 2560px;
