@@ -1,0 +1,25 @@
+@use "./variables" as *;
+
+.highlight {
+  color: $color-highlight;
+}
+
+.burger-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1.25rem;
+}
+
+.hero {
+  font-family: "Cormorant", serif;
+  line-height: 6rem;
+  font-size: 4rem;
+  @media screen and (min-width: $large-mobile-breakpoint) {
+    font-size: 5rem;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+}

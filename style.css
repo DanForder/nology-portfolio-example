@@ -26,20 +26,6 @@ p {
   margin-bottom: 1rem;
 }
 
-.hero {
-  font-family: "Cormorant", serif;
-  font-size: 4rem;
-  line-height: 6rem;
-}
-.hero--centered {
-  text-align: center;
-}
-
-@media screen and (min-width: 375px) {
-  .hero {
-    font-size: 5rem;
-  }
-}
 * {
   padding: 0;
   margin: 0;
@@ -192,4 +178,18 @@ main {
   right: 0;
   top: 0;
   margin: 1.25rem;
+}
+
+.hero {
+  font-family: "Cormorant", serif;
+  line-height: 6rem;
+  font-size: 4rem;
+}
+@media screen and (min-width: 375px) {
+  .hero {
+    font-size: 5rem;
+  }
+}
+.hero--centered {
+  text-align: center;
 }

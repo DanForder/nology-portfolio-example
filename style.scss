@@ -8,16 +8,4 @@
 @use "./styles/button";
 @use "./styles/contact-section";
 @use "./styles/footer";
-
-@use "./styles/variables" as *;
-
-.highlight {
-  color: $color-highlight;
-}
-
-.burger-menu {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 1.25rem;
-}
+@use "./styles/utils";
