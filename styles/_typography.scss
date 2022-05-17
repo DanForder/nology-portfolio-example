@@ -28,12 +28,17 @@ h2 {
 p {
   font-family: "Inter", serif;
   line-height: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 .hero {
   font-family: "Cormorant", serif;
   font-size: 4rem;
   line-height: 6rem;
+
+  &--centered {
+    text-align: center;
+  }
 }
 
 // TODO: pull out screen size vars

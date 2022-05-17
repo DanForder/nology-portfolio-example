@@ -10,6 +10,10 @@
 
 body {
   background-color: $color-background;
-  padding: 1.25rem;
   width: 100vw;
+}
+
+header,
+main {
+  padding: 1.25rem;
 }

@@ -1,0 +1,22 @@
+.expander-section {
+  margin: 3rem 0;
+
+  .expander-section__heading {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .expander-section__expander {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #5c5c5c;
+    padding: 1.5rem 0;
+
+    .expander-section__secondary-heading {
+      font-size: 1rem;
+      line-height: 1.6rem;
+      font-weight: 400;
+    }
+  }
+}
