@@ -31,7 +31,6 @@ p {
   margin: 0;
   box-sizing: border-box;
   color: #ffffff;
-  overflow-x: hidden;
 }
 
 body {
@@ -112,6 +111,7 @@ main {
 }
 .about .about__image {
   margin: 3rem 0;
+  width: 100%;
 }
 
 .expander-section {
