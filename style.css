@@ -129,7 +129,7 @@ main {
 }
 
 .expander-section {
-  margin: 3rem 0;
+  margin: 1.5rem 0;
 }
 .expander-section .expander-section__heading {
   font-size: 1.5rem;
@@ -167,7 +167,7 @@ main {
 
 .footer {
   margin-top: 5.5rem;
-  background-color: #3b3636;
+  background-color: #453f3f;
   height: 7.125rem;
   display: flex;
   justify-content: center;

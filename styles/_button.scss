@@ -1,6 +1,8 @@
+@use "./variables" as *;
+
 .button {
   font-family: "Inter", sans-serif;
-  border: solid 1px #d9bea5;
+  border: solid 1px $color-primary;
   font-size: 1.125rem;
   background-color: transparent;
   padding: 1.75rem 5.75rem;
