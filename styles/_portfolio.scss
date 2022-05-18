@@ -19,6 +19,7 @@
       grid-template-columns: 1fr 1fr;
       column-gap: 1.25rem;
 
+      // show the first 3 items on desktop
       > *:nth-child(n + 4) {
         display: unset;
       }
