@@ -92,7 +92,7 @@ main > * {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background-color: #3c3636;
+  background-color: #3b3636;
   padding: 0.75rem;
 }
 .card .card__skills {
@@ -102,7 +102,7 @@ main > * {
 .card .card__skills .card__skill-icon {
   font-family: "Inter", serif;
   font-size: 0.813rem;
-  background-color: #3c3636;
+  background-color: #3b3636;
   padding: 0.2rem 1rem;
 }
 
@@ -239,7 +239,7 @@ main > * {
 
 .footer {
   margin-top: 5.5rem;
-  background-color: #453f3f;
+  background-color: #3b3636;
   height: 7.125rem;
   display: flex;
   justify-content: center;
