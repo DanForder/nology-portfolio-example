@@ -1,14 +1,3 @@
-@use "./styles/typography";
-@use "./styles/reset";
-@use "./styles/card";
-@use "./styles/portfolio";
-@use "./styles/horizontal-break";
-@use "./styles/about";
-@use "./styles/expander-section";
-@use "./styles/button";
-@use "./styles/contact-section";
-@use "./styles/footer";
-@use "./styles/utils";
-@use "./styles/header";
-@use "./styles/hero";
-@use "./styles/skills";
+@use "./styles/components/_components-dir";
+@use "./styles/layouts/_layouts-dir";
+@use "./styles/base/_base-dir";
