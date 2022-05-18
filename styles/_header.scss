@@ -1,7 +1,7 @@
 @use "./variables" as *;
 
 .header {
-  padding: 1.25rem 1.25rem 0;
+  padding: $padding-mobile $padding-mobile 0;
   margin-bottom: 5rem;
 
   .header__burger-menu {
@@ -16,8 +16,9 @@
   }
 }
 
-@media screen and(min-width:$tablet-breakpoint) {
+@media screen and(min-width: $tablet-breakpoint) {
   .header {
+    padding: $padding-tablet $padding-tablet 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,5 +45,12 @@
         }
       }
     }
+  }
+}
+
+@media screen and (min-width: $large-desktop-breakpoint) {
+  .header {
+    padding-left: $padding-desktop;
+    padding-right: $padding-desktop;
   }
 }

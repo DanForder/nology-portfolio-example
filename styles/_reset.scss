@@ -13,11 +13,24 @@ body {
 }
 
 main {
-  padding: 0 1.25rem;
+  padding: 0 $padding-mobile;
   @include flex-center;
   flex-direction: column;
+  overflow-x: hidden;
 
   > * {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  main {
+    padding: 0 $padding-tablet;
+  }
+}
+
+@media screen and (min-width: $large-desktop-breakpoint) {
+  main {
+    padding: 0 $padding-desktop;
   }
 }

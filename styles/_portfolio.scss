@@ -16,12 +16,20 @@
 @media screen and (min-width: $tablet-breakpoint) {
   .portfolio {
     .portfolio__card-container {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       column-gap: 1.25rem;
 
       > *:nth-child(n + 4) {
         display: unset;
       }
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .portfolio {
+    .portfolio__card-container {
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 }
