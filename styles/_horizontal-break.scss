@@ -12,3 +12,9 @@
     width: 4.125rem;
   }
 }
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .horizontal-break {
+    width: 6rem;
+  }
+}
