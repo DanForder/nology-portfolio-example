@@ -9,89 +9,227 @@
   </head>
 
   <body>
-    <header>
-      <img src="./assets/burger-menu.svg" class="burger-menu" />
-      <h1>STACY <span class="highlight">AUER.</span></h1>
-      <p class="hero">Junior Software Developer.</p>
-      <div class="horizontal-break"></div>
-      <p>
-        Nunc aliquam faucibus ac in donec commodo id. Dui viverra sit feugiat
-        massa pellentesque arcu at quis. Diam, elementum morbi pellentesque
-        blandit suscipit sit. Neque, et consequat phasellus augue neque mollis
-        tempor.
-      </p>
-      <h2>PORTFOLIO <img src="./assets/down-icon.svg" alt="" /></h2>
+    <header class="header">
+      <img src="./assets/burger-menu.svg" class="header__burger-menu" />
+      <h1 class="header__heading">
+        STACY <span class="highlight">AUER.</span>
+      </h1>
+      <nav class="header__navbar">
+        <ul>
+          <li>
+            <a href="/">About</a>
+          </li>
+          <li>
+            <a href="/">Portfolio</a>
+          </li>
+          <li>
+            <a href="/">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <section class="card-container">
-        <div class="card">
-          <img
-            class="card__image"
-            src="https://placedog.net/300/175"
-            alt="doggo"
-          />
-          <div class="card__info">
-            <h3 class="card__title">PROJECT 1</h3>
-            <div class="card__links">
-              <a class="card__icon" href="https://example.com" target="_blank">
-                <img src="./assets/eye-icon.svg" alt="" />
-              </a>
-              <a class="card__icon" href="https://example.com" target="_blank">
-                <img src="./assets/code-slash-icon.svg" alt="" />
-              </a>
+      <div class="hero">
+        <p class="hero__heading">Junior Software Developer.</p>
+        <div class="horizontal-break"></div>
+        <p class="hero__subtitle">
+          Nunc aliquam faucibus ac in donec commodo id. Dui viverra sit feugiat
+          massa pellentesque arcu at quis. Diam, elementum morbi pellentesque
+          blandit suscipit sit. Neque, et consequat phasellus augue neque mollis
+          tempor.
+        </p>
+      </div>
+      <section class="portfolio">
+        <h2 class="portfolio__heading">
+          PORTFOLIO <img src="./assets/down-icon.svg" alt="" />
+        </h2>
+        <div class="portfolio__card-container">
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://placedog.net/300/175"
+              alt="doggo"
+            />
+            <div class="card__info">
+              <h3 class="card__title">PROJECT 1</h3>
+              <div class="card__links">
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/eye-icon.svg" alt="" />
+                </a>
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/code-slash-icon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="horizontal-break horizontal-break--small"></div>
+            <div class="card__skills">
+              <span class="card__skill-icon">REACT</span>
+              <span class="card__skill-icon">SCSS</span>
             </div>
           </div>
-          <div class="horizontal-break horizontal-break--small"></div>
-          <div class="card__skills">
-            <span class="card__skill-icon">REACT</span>
-            <span class="card__skill-icon">SCSS</span>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="https://placedog.net/300/175"
-            alt="doggo"
-          />
-          <div class="card__info">
-            <h3 class="card__title">PROJECT 2</h3>
-            <div class="card__links">
-              <a class="card__icon" href="https://example.com" target="_blank">
-                <img src="./assets/eye-icon.svg" alt="" />
-              </a>
-              <a class="card__icon" href="https://example.com" target="_blank">
-                <img src="./assets/code-slash-icon.svg" alt="" />
-              </a>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://placedog.net/300/175"
+              alt="doggo"
+            />
+            <div class="card__info">
+              <h3 class="card__title">PROJECT 2</h3>
+              <div class="card__links">
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/eye-icon.svg" alt="" />
+                </a>
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/code-slash-icon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="horizontal-break horizontal-break--small"></div>
+            <div class="card__skills">
+              <span class="card__skill-icon">REACT</span>
+              <span class="card__skill-icon">SCSS</span>
             </div>
           </div>
-          <div class="horizontal-break horizontal-break--small"></div>
-          <div class="card__skills">
-            <span class="card__skill-icon">REACT</span>
-            <span class="card__skill-icon">SCSS</span>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="https://placedog.net/300/175"
-            alt="doggo"
-          />
-          <div class="card__info">
-            <h3 class="card__title">PROJECT 3</h3>
-            <div class="card__links">
-              <a class="card__icon" href="https://example.com" target="_blank">
-                <img src="./assets/eye-icon.svg" alt="" />
-              </a>
-              <a class="card__icon" href="https://example.com" target="_blank">
-                <img src="./assets/code-slash-icon.svg" alt="" />
-              </a>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://placedog.net/300/175"
+              alt="doggo"
+            />
+            <div class="card__info">
+              <h3 class="card__title">PROJECT 3</h3>
+              <div class="card__links">
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/eye-icon.svg" alt="" />
+                </a>
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/code-slash-icon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="horizontal-break horizontal-break--small"></div>
+            <div class="card__skills">
+              <span class="card__skill-icon">REACT</span>
+              <span class="card__skill-icon">SCSS</span>
             </div>
           </div>
-          <div class="horizontal-break horizontal-break--small"></div>
-          <div class="card__skills">
-            <span class="card__skill-icon">REACT</span>
-            <span class="card__skill-icon">SCSS</span>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://placedog.net/300/175"
+              alt="doggo"
+            />
+            <div class="card__info">
+              <h3 class="card__title">PROJECT 4</h3>
+              <div class="card__links">
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/eye-icon.svg" alt="" />
+                </a>
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/code-slash-icon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="horizontal-break horizontal-break--small"></div>
+            <div class="card__skills">
+              <span class="card__skill-icon">REACT</span>
+              <span class="card__skill-icon">SCSS</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://placedog.net/300/175"
+              alt="doggo"
+            />
+            <div class="card__info">
+              <h3 class="card__title">PROJECT 5</h3>
+              <div class="card__links">
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/eye-icon.svg" alt="" />
+                </a>
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/code-slash-icon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="horizontal-break horizontal-break--small"></div>
+            <div class="card__skills">
+              <span class="card__skill-icon">REACT</span>
+              <span class="card__skill-icon">SCSS</span>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://placedog.net/300/175"
+              alt="doggo"
+            />
+            <div class="card__info">
+              <h3 class="card__title">PROJECT 6</h3>
+              <div class="card__links">
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/eye-icon.svg" alt="" />
+                </a>
+                <a
+                  class="card__icon"
+                  href="https://example.com"
+                  target="_blank"
+                >
+                  <img src="./assets/code-slash-icon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="horizontal-break horizontal-break--small"></div>
+            <div class="card__skills">
+              <span class="card__skill-icon">REACT</span>
+              <span class="card__skill-icon">SCSS</span>
+            </div>
           </div>
         </div>
       </section>
@@ -179,8 +317,10 @@
         </div>
       </section>
       <section class="contact-section">
-        <p class="hero hero--centered">Get in Touch.</p>
-        <button class="button">CONTACT</button>
+        <div class="hero hero--centered">
+          <p class="hero__heading">Get in Touch.</p>
+          <button class="button">CONTACT</button>
+        </div>
       </section>
     </main>
 

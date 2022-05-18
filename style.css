@@ -11,7 +11,11 @@ h6 {
 h1 {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 5rem;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
 
 h2 {
@@ -25,6 +29,11 @@ p {
   line-height: 1.6rem;
   margin-bottom: 1rem;
 }
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
 
 * {
   padding: 0;
@@ -35,11 +44,6 @@ p {
 
 body {
   background-color: #2c2a2a;
-  width: 100vw;
-}
-
-header {
-  padding: 1.25rem 1.25rem 0;
 }
 
 main {
@@ -84,12 +88,25 @@ main {
   padding: 0.2rem 1rem;
 }
 
-.card-container {
+.portfolio .portfolio__card-container {
   margin: 3rem 0;
   display: grid;
   gap: 3.125rem;
 }
+.portfolio .portfolio__card-container > *:nth-child(n+4) {
+  display: none;
+}
 
+@media screen and (min-width: 768px) {
+  .portfolio .portfolio__card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+  }
+  .portfolio .portfolio__card-container > *:nth-child(n+4) {
+    display: unset;
+  }
+}
 .horizontal-break {
   background-color: #d9bea5;
   height: 0.25rem;
@@ -173,23 +190,66 @@ main {
   color: #d9bea5;
 }
 
-.burger-menu {
+.header {
+  padding: 1.25rem 1.25rem 0;
+  margin-bottom: 5rem;
+}
+.header .header__burger-menu {
   position: absolute;
   right: 0;
   top: 0;
   margin: 1.25rem;
 }
-
-.hero {
-  font-family: "Cormorant", serif;
-  line-height: 6rem;
-  font-size: 4rem;
+.header .header__navbar {
+  display: none;
 }
-@media screen and (min-width: 375px) {
-  .hero {
-    font-size: 5rem;
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .header__burger-menu {
+    display: none;
+  }
+  .header .header__navbar {
+    display: unset;
+  }
+  .header .header__navbar ul {
+    display: flex;
+    gap: 5rem;
+  }
+  .header .header__navbar ul li {
+    list-style: none;
+  }
+  .header .header__navbar ul li a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-size: 1.25rem;
   }
 }
 .hero--centered {
   text-align: center;
+}
+.hero .hero__heading {
+  font-family: "Cormorant", serif;
+  line-height: 120%;
+  font-size: 4rem;
+}
+@media screen and (min-width: 375px) {
+  .hero .hero__heading {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero .hero__heading {
+    font-size: 8rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero .hero__subtitle {
+    margin-right: 55%;
+  }
 }

@@ -1,0 +1,26 @@
+@use "./variables" as *;
+
+.hero {
+  &--centered {
+    text-align: center;
+  }
+  .hero__heading {
+    font-family: "Cormorant", serif;
+    line-height: 120%;
+    font-size: 4rem;
+    @media screen and (min-width: $large-mobile-breakpoint) {
+      font-size: 5rem;
+    }
+    @media screen and (min-width: $tablet-breakpoint) {
+      font-size: 8rem;
+    }
+  }
+}
+
+@media screen and(min-width:$tablet-breakpoint) {
+  .hero {
+    .hero__subtitle {
+      margin-right: 55%;
+    }
+  }
+}
