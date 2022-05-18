@@ -1,0 +1,9 @@
+@use "./variables" as *;
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+  }
+}

@@ -201,6 +201,7 @@ main > * {
 }
 .expander-section {
   margin: 1.5rem 0;
+  width: 100%;
 }
 .expander-section .expander-section__heading {
   font-size: 1.5rem;
@@ -228,7 +229,7 @@ main > * {
 }
 
 .contact-section {
-  margin-top: 7.25rem;
+  margin: 7.25rem 0 4rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -326,5 +327,12 @@ main > * {
 @media screen and (min-width: 768px) {
   .hero .hero__subtitle {
     margin-right: 55%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .skills {
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
   }
 }
