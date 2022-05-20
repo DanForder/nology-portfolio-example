@@ -1,6 +1,6 @@
 @use "../mixins" as *;
 
-.contact-section {
+.contact {
   margin: 7.25rem 0 4rem 0;
   @include flex-center;
   flex-direction: column;
